@@ -1,0 +1,193 @@
+body{
+  margin : 0 auto;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   margin:5% auto;
+}
+
+h3{
+  font-family: 'Roboto Mono', monospace;
+  color: #ff4646;
+  font-weight: bold;
+}
+
+/* navigation */
+.nav-color{
+  background-color: #000;
+}
+
+.nav-item{
+  padding: 5px 30px;
+}
+
+
+.navbar-brand{
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+.about{
+  background-color: black;
+  color:#ff4646;
+  padding:0;
+  position: relative;
+}
+
+.my_img{
+  margin:0;
+  width:60%;
+  margin-left: 40%;
+}
+
+#about_me{
+  top:20%;
+  margin-left:20%;
+  position:absolute;
+  max-width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 3rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 816px) {
+  #about_me{
+    font-size:1rem;
+    line-height: 1.5rem;
+    top:5%;
+    margin-left: 5%;
+    max-width: 70%;
+  }
+}
+
+/* education */
+.column{
+  padding: 5% 3%;
+}
+.align{
+  margin-bottom: 2.5rem;
+}
+
+.content{
+  margin: 15% auto 0;
+  line-height: 2rem;
+}
+
+/* skills */
+.icons{
+  height: 5rem;
+  width:5rem;
+margin:2rem;
+}
+
+.skills{
+  background-color: #ffb396;
+  padding:5%;
+}
+
+@media screen and (max-width:600px) {
+  .icons{
+    height: 3rem;
+    width: 3rem;
+    margin: 1.5rem;
+  }
+
+}
+
+/* carousel */
+.carousel-inner{
+  width:50%;
+  max-height:50%;
+  margin: 0 auto;
+}
+
+.carousel{
+    background-color: #ff4646;
+    padding:5%;
+}
+
+.carousel-text{
+  font-family: 'Roboto Mono', monospace;
+  color:white;
+  font-weight: bold;
+  line-height: 2rem;
+  margin: 5% auto 0;
+}
+
+@media screen and (max-width:600px) {
+
+  .carousel-text{
+    text-align:left;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 5% auto 0;
+  }
+}
+
+/* contact */
+#contact{
+  background-color: #aaa;
+  padding:2%;
+}
+.contact_me{
+  width:50%;
+  height:50%;
+}
+
+
+input[type=text], input[type=email],textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit] {
+  background-color: #ff4646;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #ff8585;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer{
+  background-color: #ff4646;
+  color: white;
+}
+
+a, .footer{
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  padding:20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#ff8585;
+}
+
+.fa{
+  padding:10px;
+}
